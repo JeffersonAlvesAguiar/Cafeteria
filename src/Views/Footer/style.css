@@ -1,0 +1,21 @@
+.container__footer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 5rem 0;
+
+  background-color: saddlebrown;
+}
+
+.box__content {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.box__content{
+    color: antiquewhite;
+    font-size: 16px;
+}

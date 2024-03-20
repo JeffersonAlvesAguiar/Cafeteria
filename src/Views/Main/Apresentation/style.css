@@ -1,0 +1,58 @@
+.container__apresentation {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  flex-direction: column;
+  gap: 3rem;
+  padding: 0 10rem;
+  background-image: url(../../../assets/espresso-cercado-por-graos-de-cafe-espalhados-em-uma-superficie-escura.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card__apresentation {
+  width: 60%;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  padding: 1rem 1rem;
+  border-radius: 0.2rem;
+  gap: 1rem;
+  background-color: chocolate;
+}
+
+.card__apresentation span {
+  font-size: 16px;
+  color: antiquewhite;
+}
+
+.box__button {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 0.5rem;
+  gap: 2rem;
+  background-color: #0000002e;
+  box-shadow: 0px 0px 20px 5px #0000002e;
+}
+
+.box__button button {
+  width: 100%;
+  font-size: 16px;
+  text-align: center;
+  padding: 0.4rem 0.4rem;
+  border: none;
+  border-radius: 0.2rem;
+  cursor: pointer;
+  color: antiquewhite;
+  background-color: saddlebrown;
+}
+
+.box__button button:hover {
+  transition: 100ms ease-in-out;
+  opacity: 0.9;
+  box-shadow: 0px 0px 5px 1px saddlebrown;
+}
