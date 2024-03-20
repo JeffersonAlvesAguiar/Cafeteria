@@ -10,7 +10,7 @@ export default function Apresentation() {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni nam
             molestiae, voluptatem sunt modi officia possimus totam blanditiis
             impedit excepturi harum non, ad labore laboriosam quibusdam,
-            inventore velit perspiciatis pariatur! teste
+            inventore velit perspiciatis pariatur! 
           </span>
         </div>
         <div className="box__button">
