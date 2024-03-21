@@ -1,14 +1,17 @@
 .container__coffeeList {
   width: 100%;
-  /* height: 100vh; */
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 10rem 0;
+
+  background-image: url(../../../assets/pngegg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .box__list {
-  width: 70%;
+  width: 90%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -16,12 +19,15 @@
   gap: 5rem;
 }
 
-.box__list span{
-    width: 100%;
-    text-align: center;
-    font-size: 20px;
-    font-weight: 800;
-    border-bottom: 2px solid saddlebrown;
+.title__list {
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 800;
+  border-radius: 0.2rem;
+  padding: 0.5rem 0;
+  color: antiquewhite;
+  background-color: saddlebrown;
 }
 
 .row__box {
@@ -29,16 +35,18 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 1rem;
 }
 
 .card__option {
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  flex-direction: column;
+  padding: 1rem 1rem;
   border-radius: 0.2rem;
-  overflow: hidden;
   border: 1px solid saddlebrown;
+  background-color: antiquewhite;
   box-shadow: 0px 0px 10px 1px saddlebrown;
 }
 
@@ -53,7 +61,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
   padding: 1rem 1rem;
   gap: 1rem;
 }
@@ -62,7 +69,7 @@
   font-size: 16px;
 }
 
-.description__option button {
+.card__option button {
   width: 100%;
   border: none;
   border-radius: 0.2rem;

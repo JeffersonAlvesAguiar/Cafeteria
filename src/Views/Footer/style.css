@@ -5,7 +5,8 @@
   justify-content: space-around;
   padding: 5rem 0;
 
-  background-color: saddlebrown;
+  background-color: #1F1D20;
+  /* background-color: saddlebrown; */
 }
 
 .box__content {
@@ -15,7 +16,7 @@
   flex-direction: column;
 }
 
-.box__content{
+.box__content span{
     color: antiquewhite;
-    font-size: 16px;
+    font-size: 12px;
 }

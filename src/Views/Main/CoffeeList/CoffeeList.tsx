@@ -7,82 +7,88 @@ export default function CoffeeList() {
     <>
       <div className="container__coffeeList">
         <div className="box__list">
-          <span>Cardápio</span>
+          <span className="title__list">Cardápio</span>
 
-          <div className="card__option">
-            <img src={img} alt="" />
-            <div className="description__option">
-              <span>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Explicabo, iusto? Eveniet nobis qui praesentium numquam ab
-                molestias iure porro consequatur hic distinctio, sint laudantium
-                dolores, voluptatibus quod a illum? Molestiae.
-              </span>
+          <div className="row__box">
+            <div className="card__option">
+              <div className="description__option">
+                <img src={img} alt="" />
+                <span>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Explicabo, iusto? Eveniet nobis qui praesentium numquam ab
+                  molestias iure porro consequatur hic distinctio, sint
+                  laudantium dolores, voluptatibus quod a illum? Molestiae.
+                </span>
+              </div>
+              <button>Chamar no Watts</button>
+            </div>
+
+            <div className="card__option">
+              <div className="description__option">
+                <img src={img} alt="" />
+                <span>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Explicabo, iusto? Eveniet nobis qui praesentium numquam ab
+                  molestias iure porro consequatur hic distinctio, sint
+                  laudantium dolores, voluptatibus quod a illum? Molestiae.
+                </span>
+              </div>
               <button>Chamar no Watts</button>
             </div>
           </div>
 
-          <div className="card__option">
-            <img src={img} alt="" />
-            <div className="description__option">
-              <span>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Explicabo, iusto? Eveniet nobis qui praesentium numquam ab
-                molestias iure porro consequatur hic distinctio, sint laudantium
-                dolores, voluptatibus quod a illum? Molestiae.
-              </span>
+          <div className="row__box">
+            <div className="card__option">
+              <div className="description__option">
+                <img src={img} alt="" />
+                <span>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Explicabo, iusto? Eveniet nobis qui praesentium numquam ab
+                  molestias iure porro consequatur hic distinctio, sint
+                  laudantium dolores, voluptatibus quod a illum? Molestiae.
+                </span>
+              </div>
+              <button>Chamar no Watts</button>
+            </div>
+
+            <div className="card__option">
+              <div className="description__option">
+                <img src={img} alt="" />
+                <span>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Explicabo, iusto? Eveniet nobis qui praesentium numquam ab
+                  molestias iure porro consequatur hic distinctio, sint
+                  laudantium dolores, voluptatibus quod a illum? Molestiae.
+                </span>
+              </div>
               <button>Chamar no Watts</button>
             </div>
           </div>
 
-          <div className="card__option">
-            <img src={img} alt="" />
-            <div className="description__option">
-              <span>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Explicabo, iusto? Eveniet nobis qui praesentium numquam ab
-                molestias iure porro consequatur hic distinctio, sint laudantium
-                dolores, voluptatibus quod a illum? Molestiae.
-              </span>
+          <div className="row__box">
+            <div className="card__option">
+              <div className="description__option">
+                <img src={img} alt="" />
+                <span>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Explicabo, iusto? Eveniet nobis qui praesentium numquam ab
+                  molestias iure porro consequatur hic distinctio, sint
+                  laudantium dolores, voluptatibus quod a illum? Molestiae.
+                </span>
+              </div>
               <button>Chamar no Watts</button>
             </div>
-          </div>
 
-          <div className="card__option">
-            <img src={img} alt="" />
-            <div className="description__option">
-              <span>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Explicabo, iusto? Eveniet nobis qui praesentium numquam ab
-                molestias iure porro consequatur hic distinctio, sint laudantium
-                dolores, voluptatibus quod a illum? Molestiae.
-              </span>
-              <button>Chamar no Watts</button>
-            </div>
-          </div>
-
-          <div className="card__option">
-            <img src={img} alt="" />
-            <div className="description__option">
-              <span>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Explicabo, iusto? Eveniet nobis qui praesentium numquam ab
-                molestias iure porro consequatur hic distinctio, sint laudantium
-                dolores, voluptatibus quod a illum? Molestiae.
-              </span>
-              <button>Chamar no Watts</button>
-            </div>
-          </div>
-
-          <div className="card__option">
-            <img src={img} alt="" />
-            <div className="description__option">
-              <span>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Explicabo, iusto? Eveniet nobis qui praesentium numquam ab
-                molestias iure porro consequatur hic distinctio, sint laudantium
-                dolores, voluptatibus quod a illum? Molestiae.
-              </span>
+            <div className="card__option">
+              <div className="description__option">
+                <img src={img} alt="" />
+                <span>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Explicabo, iusto? Eveniet nobis qui praesentium numquam ab
+                  molestias iure porro consequatur hic distinctio, sint
+                  laudantium dolores, voluptatibus quod a illum? Molestiae.
+                </span>
+              </div>
               <button>Chamar no Watts</button>
             </div>
           </div>

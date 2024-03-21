@@ -48,11 +48,10 @@
   border-radius: 0.2rem;
   cursor: pointer;
   color: antiquewhite;
-  background-color: saddlebrown;
+  background-color: chocolate;
 }
 
 .box__button button:hover {
   transition: 100ms ease-in-out;
   opacity: 0.9;
-  box-shadow: 0px 0px 5px 1px saddlebrown;
 }
